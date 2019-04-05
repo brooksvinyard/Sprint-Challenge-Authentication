@@ -1,0 +1,46 @@
+.login h2 {
+    font-size: 60px;
+    font-family: monospace;
+    font-weight: 700;
+}
+
+.login label {
+    font-family: monospace;
+    font-weight: 700;
+    font-size: 30px;
+}
+
+.login input {
+    margin: 10px;
+    width: 350px;
+    height: 50px;
+
+    /* width: 100%; */
+    padding: 12px 20px;
+    /* box-sizing: border-box; */
+    border: 3px solid #ccc;
+    transition: 0.5s;
+    font-size: 18px;
+}
+
+.login input[type=text]:focus {
+    border: 3px solid #555;
+}
+
+
+.login button {
+    background-color: #F1C131;
+    color: #333;
+    box-shadow: 8px 8px 0 rgba(241,193,49,.2);
+    width: 250px;
+    height: 58px;
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.login button:hover {
+    box-shadow: none;
+    background-color: #efba19;
+}
+
+

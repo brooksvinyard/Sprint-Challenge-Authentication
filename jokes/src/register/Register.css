@@ -1,0 +1,41 @@
+.register h2 {
+    font-size: 40px;
+}
+.register label {
+    font-family: monospace;
+    font-weight: 700;
+    font-size: 30px;
+}
+.register input {
+    margin: 10px;
+    width: 350px;
+    height: 50px;
+
+    /* width: 100%; */
+    padding: 12px 20px;
+    /* box-sizing: border-box; */
+    border: 3px solid #ccc;
+    transition: 0.5s;
+    font-size: 18px;
+}
+
+.register input[type=text]:focus {
+    border: 3px solid #555;
+}
+
+
+.register button {
+    background-color: #662D91;
+    box-shadow: 8px 8px 0 rgba(102,45,145,.2);
+    color: white;
+    width: 250px;
+    height: 58px;
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.register button:hover {
+    box-shadow: none;
+    background-color: #4b216a;
+}
+
